@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    border: 0;
+    box-shadow: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #79C4F2;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+.imgIcon{
+    animation: iconAnimate infinite 2s ease-in-out;
+}
+.heroSection{
+    height: 100vh;
+}
+.imgPB img{
+    border-radius: 10px;
+}
+.content{
+    margin-bottom: 20%;
+}
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #00253b;
+}
+@keyframes iconAnimate {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
